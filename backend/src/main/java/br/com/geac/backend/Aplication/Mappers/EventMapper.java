@@ -70,7 +70,7 @@ public class EventMapper {
                 event.getRequirement() != null ? event.getRequirement().getId() : null,
                 requirement != null ? List.of(requirement.getDescription())  : null,
                 event.getTags() != null ? names : null,
-                List.of("Palestrante 1", "Palestrante 2") // Exemplo fixo
+                List.of("Palestrante 1", "Palestrante 2")
         );
     }
 
